@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SalesWebDemo</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="register">Register Account</string>
+    <string name="create">Create Account</string>
+    <string name="enter_pass">Enter password</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_username">Enter username</string>
+    <string name="confirm">Confirm password</string>
+    <string name="enter_mobile">Enter Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

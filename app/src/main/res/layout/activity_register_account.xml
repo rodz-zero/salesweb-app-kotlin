@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040"
+    android:orientation="vertical"
+    tools:context=".RegisterAccount">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        android:text="@string/register"/>
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_name"
+        android:drawableEnd="@drawable/ic_user"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:autofillHints="@string/enter_name" />
+
+    <EditText
+        android:id="@+id/reg_address"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_address"
+        android:drawableEnd="@drawable/ic_location"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="10dp"
+        android:autofillHints="@string/enter_address" />
+
+    <EditText
+        android:id="@+id/reg_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_username"
+        android:drawableEnd="@drawable/ic_user"
+        android:textSize="22sp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:inputType="number"
+        android:ems="10"
+        android:autofillHints="@string/enter_username" />
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/enter_pass"
+        android:drawableEnd="@drawable/ic_password"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:autofillHints="@string/enter_pass" />
+
+    <EditText
+        android:id="@+id/reg_cPassword"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="@string/confirm"
+        android:drawableEnd="@drawable/ic_password"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:autofillHints="@string/enter_pass" />
+
+
+    <Button
+        android:id="@+id/reg_signup"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="20sp"
+        android:text="@string/sign_up"
+        android:gravity="center"
+        android:background="#0055DD"
+        android:padding="10dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
